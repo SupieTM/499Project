@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <title>Toyota Casing Check-In</title>
+  <meta name="description" content="TMMK Die Manufacturing casing check-in connected to the vision and CAD identification system." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <nav class="stepper" aria-label="Check-in progress">
+      <button class="step is-active" data-step="start" type="button"><span>1</span>Start</button>
+      <button class="step" data-step="capture" type="button"><span>2</span>Photos</button>
+      <button class="step" data-step="review" type="button"><span>3</span>Review</button>
+      <button class="step" data-step="result" type="button"><span>4</span>Result</button>
+      <button class="step" data-step="confirmation" type="button"><span>5</span>Complete</button>
+    </nav>
+    <main id="app" tabindex="-1"></main>
+  </div>
+  <input id="photo-input" type="file" accept="image/*" capture="environment" hidden />
+  <script src="./app.js"></script>
+</body>
+</html>
