@@ -1,0 +1,15 @@
+numpy
+pillow
+trimesh
+cadquery
+open3d
+torch
+torchvision
+faiss-cpu
+transformers
+einops
+kornia
+timm
+opencv-python
+paddleocr
+flask
